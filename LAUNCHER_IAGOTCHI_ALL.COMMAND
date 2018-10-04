@@ -5,7 +5,7 @@
 cd $(dirname $0)
 
 echo opening IAGORECO
-open ./IAGORECO/LAUNCHER_IAGORECO.COMMAND
+open ../IAGORECO/LAUNCHER_IAGORECO.COMMAND &
 
 echo opening IAGOBOT
 open ../IAGOBOT/LAUNCHER_IAGOBOT.COMMAND &
@@ -23,5 +23,10 @@ sleep 1
 
 echo opening ASR webpage
 open http://localhost:8080
+
+sleep 30
+
+echo opening IAGOCONSOLE
+open ../IAGOCONSOLE/console/application.macosx/console.app &
 
 echo Done
