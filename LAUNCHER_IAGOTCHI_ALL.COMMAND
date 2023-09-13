@@ -1,7 +1,4 @@
 #!/bin/sh
-
-#echo KILLING ALL SCRIPTS
-
 cd $(dirname $0)
 
 echo opening IAGORECO
@@ -13,8 +10,8 @@ open ../IAGOBOT/LAUNCHER_IAGOBOT.COMMAND &
 echo opening IAGOWIKI
 open ../IAGOWIKI/LAUNCHER_IAGOWIKI.COMMAND &
 
-echo opening IAGOBOT
-open ../IAGOGENERATOR/LAUNCHER_IAGOGENERATOR.COMMAND &
+#echo opening IAGOGENERATOR
+#open ../IAGOGENERATOR/LAUNCHER_IAGOGENERATOR.COMMAND &
 
 echo opening IAGOVOIX
 open ../IAGOVOIX/iagoVoix.als &
